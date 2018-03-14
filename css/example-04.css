@@ -11,12 +11,13 @@ body{
     align-content: space-between;
     width: 850px;
     margin: 0 auto;
+    padding: 10px 15px;
     border: 1px solid black;
 }
 .box{
     width: 200px;
     height: 150px;
-    margin-bottom: 15px;
+    margin: 10px 0;
 }
 .box:nth-child(odd){
     background: yellow;
