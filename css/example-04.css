@@ -1,0 +1,32 @@
+@charset "utf-8";
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 850px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.box{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+.box:nth-child(odd){
+    background: yellow;
+}
+.box:nth-child(even){
+    background: pink;
+}
+.box1{
+    order: 1;
+}
+.box8{
+    order: -1;
+}
