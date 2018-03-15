@@ -1,0 +1,50 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    background-color: yellow;
+}
+.box1{
+    background-color: tomato;
+}
+.box2{
+    background-color: lime; 
+}
+.box3{
+    background-color: silver;
+}
+.box4{
+    background-color: orange; 
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+    body{
+        background-color: pink;
+    }
+    .container{
+        display: grid;
+        grid-template-areas: "box";
+        grid-auto-columns: 100%;
+        grid-auto-rows: 100px;
+    }
+    .box4{
+        order: -1;
+    }
+}
+@media screen and (min-width: 768px){
+    body{
+        background-color: skyblue;
+    }
+    .container{
+        display: grid;
+        grid-template-areas: "box box";
+        grid-auto-columns: 50%;
+        grid-auto-rows: 100px;
+    }
+    .box4{
+        grid-row-start: 2;
+        grid-column-start: 1;
+    }
+}
+
+
+
+
