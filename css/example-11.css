@@ -1,0 +1,20 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    /* background-color: orange;
+    background-image: url("../images/computer-search.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0; 
+    background-size: 500px 300px;
+    background-attachment: fixed; */
+    /* background: pink url("../images/computer-search.jpg") no-repeat 50% 0 /500px 350px fixed; */
+    /* background-color: skyblue;
+    background-image: url("../images/profile.png"), linear-gradient(to bottom, red 0%, green 100%);
+    background-repeat: no-repeat;
+    background-position: 50px 50px, 0 0;
+    background-size: 200px 200px;
+    background-attachment: fixed; */
+    background: url("../images/profile.png") no-repeat 50px 50px /200px 200px fixed,
+                linear-gradient(to bottom, red 0%, green 100%) repeat 0 0 /cover fixed;
+    background-color: yellow;            
+}
