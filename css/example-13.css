@@ -1,0 +1,40 @@
+@charset "utf-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font: inherit;
+}
+.heading{
+    font-size: 3em;
+}
+.note{
+    background: rgb(255, 255, 146);
+    width:800px;
+    /* overflow:hidden;
+   */
+}
+.note img{
+    width: 200px;
+    height:auto;
+    float: right;
+    position: relative;
+    right:-50px;
+}
+.clearfix::after{
+    content: "";
+     background:lime;
+     clear:both;
+     display: block;
+}
+.next{
+    background: rgb(238, 25, 61);
+    margin-top: 50px;
+    
+}
+.next img{
+    float:left;
+}
